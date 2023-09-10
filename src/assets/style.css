@@ -1,0 +1,34 @@
+* {
+  font-family: Nunito, sans-serif;
+}
+
+
+
+.container-bg {
+  padding-top: 140px;
+  background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: cover;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+@media screen and (max-width: 760) {
+  .container-bg {
+    padding-top: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container-bg {
+    padding-top: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
